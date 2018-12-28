@@ -1,5 +1,4 @@
 from collections import defaultdict
- 
 def hashJoin(table1, index1, table2, index2):
     h = defaultdict(list)
     # hash phase
