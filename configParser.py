@@ -1,8 +1,10 @@
-''' configFile.txt format
+''' 
+configFile.txt format
 [DatabaseSection]
 database.dbname=unitTest
 database.user=root
-database.password=**** '''
+database.password=**** 
+'''
 
 import ConfigParser
 config = ConfigParser.RawConfigParser()
