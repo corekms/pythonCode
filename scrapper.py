@@ -1,4 +1,4 @@
-# sudo easy_install beaufulsoup4 -- GCP의 경우 sudo
+# sudo easy_install beaufulsoup4
 # sudo pip3 install requests
 
 # -*- coding: utf-8 -*-
@@ -27,12 +27,3 @@ def checkUrl(urlStr):
 
 if __name__ == "__main__":
         print(checkUrl("http://www.kumkangho.co.kr/bk.popup.info.php?date=20190413&pa_uid=1"))
-
-#print table[1].text.rstrip().lstrip()
-#print table[2].text.rstrip().lstrip()
-#print table[3].text.rstrip().lstrip()
-#print table[4].text.rstrip().lstrip()
-#print table[5].text.rstrip().lstrip()
-#print table[6].text.rstrip().lstrip()
-#print table[7].text.rstrip().lstrip()
-#print table[8].text.rstrip().lstrip()
