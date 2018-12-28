@@ -4,12 +4,11 @@ import smtplib
 from email.mime.text import MIMEText
 
 SMTP_MAIL_SERVER = 'smtp.gmail.com'
-SMTP_ID='corekms@gmail.com'
-SMTP_PASSWORD='Root0100!@'
+SMTP_ID='E-mail to send'
+SMTP_PASSWORD='*********'
 SMTP_MAIL_SERVER_PORT=465
 
-SEND_TO = ['corekms@gmail.com','uramanjjung@gmail.com','jinsungman@naver.com']
-#SEND_TO = 'corekms@gmail.com'
+SEND_TO = ['user email1', ''user email2']
 
 def sendMail(subject_,contents_):
 	message_ = MIMEText(contents_,_charset='utf-8')
