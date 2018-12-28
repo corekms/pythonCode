@@ -26,4 +26,4 @@ def checkUrl(urlStr):
         
 
 if __name__ == "__main__":
-        print(checkUrl("http://www.kumkangho.co.kr/bk.popup.info.php?date=20190413&pa_uid=1"))
+        print(checkUrl("Your_Url_To_Scrap"))
